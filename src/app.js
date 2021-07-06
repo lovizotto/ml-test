@@ -38,9 +38,9 @@ const Routes = () => (
         <Route
             exact
             path="/"
-            render={props => <Index name="Alligator.io" {...props} />}
+            render={props => <Index name="ML - Test" {...props} />}
         />
-        <Route path="/item/:id" component={ProductDetail}/>
-        <Route component={NotFound}/>
+        <Route path="/item/:id" name="Product Detail" component={ProductDetail}/>
+        <Route component={NotFound} name="Page Not Found"/>
     </Switch>
 )

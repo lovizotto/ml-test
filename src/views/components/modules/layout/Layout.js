@@ -9,22 +9,22 @@ Layout.propTypes = {}
 const MockBreadCrumbItems = [
     {
         id: '1',
-        label: 'Electrônica Audio y Video',
+        label: 'Category 1',
         url: ''
     },
     {
         id: '2',
-        label: 'Electrônica Audio y Video',
+        label: 'Category 2',
         url: ''
     },
     {
         id: '3',
-        label: 'Electrônica Audio y Video',
+        label: 'Category 3',
         url: ''
     },
     {
         id: '4',
-        label: 'Electrônica Audio y Video',
+        label: 'Category 4',
         url: ''
     }
 ]

@@ -49,9 +49,9 @@ const LinkStyled = styled(Link)`
 `
 
 const Chevron = styled.span`
-  transform: scaleY(2);
-  font-size: 8px;
+  font-size: ${({ theme }) => theme.sizes.textXS};
   color: ${({ theme }) => theme.colors.gray3};
+  margin-right: ${({ theme }) => theme.spaces.s2};
 `
 
 export default Breadcrumb
